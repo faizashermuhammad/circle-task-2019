@@ -1,0 +1,254 @@
+/* write your styles here */
+header
+{
+    background-color: #4c4c4c;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+
+}
+marquee{
+    background-color:#ed484c;
+    
+}
+body{
+    background-image:url(floral.png);
+
+}
+nav{
+    background-color: #4c4c4c;
+    color:white;
+}
+.logo img{
+ height:50px;
+ width:60px;
+}
+div{
+    display:inline-block;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+
+}
+li{
+  display: inline-block;
+  font-size: 20px;
+  margin:10px;
+  
+}
+.btn{
+    background-color:black;
+    color:#f28c97;
+    padding:1.5em 5em;
+    border:none;
+
+    
+
+}
+.circle{
+    text-align:center;
+    background-color: #f28c97;
+    background-image: url(images/floral.png);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Montserrat', sans-serif;
+    
+  
+    
+}
+.circle p{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.service{
+    text-align:center;
+    background-image: url(images/floral.png); 
+    background-color:#e6e3de;
+    margin: 0em;  
+    padding: 1em;
+    display: column;
+}
+.ser i:hover{
+    background-color:ed484;
+    color:#ed484c;
+}
+.ser{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    font-size: 1em;
+    justify-content: center;
+}
+.service h2{
+    font-family:'Dancing Script', cursive;
+    
+}
+.ser i{
+    font-siZe:7em;
+}
+h2{
+    font-size: 50px;
+}
+
+.fig i{
+    font-size: 5em;
+}
+span{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+#head{
+    font-family:  'Dancing Script', cursive;  
+    
+}
+.p{
+    font-size: 20px;
+}
+
+#grid-div{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    justify-content: space-around;
+    padding: 100px;
+    padding-top: 0px;
+  
+}
+#port{
+    background-image: url(images/floral.png); 
+    background-color: #ddceb4;
+}
+
+.portfolio{
+    height: 200px;
+    margin: 30px;
+    border-radius: 10px;
+    width:250px;
+    display: inline;
+    background-size: 350px;
+    text-align: center;
+}
+.portfolio h2{
+    font-family: 'Cookie', cursive;
+}
+#text-div{
+    text-align: center;
+    justify-content: center;
+}
+#portfolio-1{
+    background-image: url(images/projects/p-1.png);
+    background-size: 100%;
+    height: 
+}
+#portfolio-2{
+    background-image: url(images/projects/p-2.png);
+}
+#portfolio-3{
+    background-image: url(images/projects/p-3.png);
+}
+#portfolio-4{
+    background-image: url(images/projects/p-4.png);
+}
+#portfolio-5{
+    background-image: url(images/projects/p-5.png);
+}
+#portfolio-6{
+    background-image: url(images/projects/p-6.png);
+}
+.portfolio-hover{
+    display: none;
+}
+
+figure:hover figcaption{
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0px;
+    padding: 53px;
+    padding-bottom: 55px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+figcaption:hover i{
+    background: #e6e3de;
+    color: black;
+}
+.portfolio-hover h3{
+    margin-top: 0px;
+}
+.portfolio-hover i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.portfolio p{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size:30px;
+} 
+.contact{
+    background-color: #b0c8c6;
+    text-align: center;
+    margin: 0em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+     background-image: url(images/floral.png);
+     font-family:  'Dancing Script', cursive;  
+    
+
+    
+}
+.contact i{
+    border:1px solid black;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 3em;
+    padding: 20px;
+}
+.icon i:hover{
+    background: #212121;
+    color:#fcdea6;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+footer i{
+    margin:0.5em;
+    font-size:1.2em;
+} 
+footer:hover i{
+    color:red;
+
+}
+/* 
+@media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 640px) {
+        width: 100%;
+      } */
