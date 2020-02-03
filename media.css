@@ -1,0 +1,6 @@
+@media screen and (max-width 360px){
+    .nav ul{
+        font-size: 10px;
+        color: black;
+    }
+}
